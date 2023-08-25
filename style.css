@@ -53,3 +53,47 @@ section header nav > a span {
     font-weight: 700;
     color: rgb(133, 172, 46);
 }
+section .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+section .content h1 {
+    font-size: 4.2em;
+    font-weight: 600;
+}
+section .content p {
+    font-size: 0.95em;
+    font-weight: 400;
+}
+section .content .btns {
+    margin-top: 30px;
+}
+section .content .btns .btn {
+    font-size: 1.1em;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+section .content .btns .btn1 {
+    border: 2px solid #fff;
+    transition: .4s;
+}
+section .content .btns .btn1:hover {
+    color: #000;
+    background: #fff;
+}
+section .content .btns .btn2 {
+    border: 2px solid #fff;
+    transition: .4s;
+    background: #fff;
+    color: #000;
+    font-weight: 500;
+}
+section .content .btns .btn2:hover {
+    color: #fff;
+    background: transparent;
+}
