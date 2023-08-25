@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins",sans-serif;
+}
+section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(Media/car.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+section header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+section header nav > a {
+    font-size: 1.5em;
+    font-weight: 600;
+    transition: 0.3s;
+}
+section header nav > a:hover {
+    transform: scale(1.08);
+}
+section header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+section header nav ul li a {
+    transition: 0.4s;
+}
+section header nav ul li a:hover {
+    color: rgb(189, 179, 179);
+}
+section header nav ul li .login {
+    padding: 7px 14px;
+    border: 2px solid #fff;
+    border-radius: 29px;
+    color: #fff;
+    font-weight: 600;
+}
+section header nav ul li .login:hover {
+    color: #000;
+    background-color: #fff;
+}
+section header nav > a span {
+    font-weight: 700;
+    color: rgb(133, 172, 46);
+}
